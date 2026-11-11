@@ -1,25 +1,18 @@
-# Cyber News Briefing: Tuesday, November 10, 2026
-_Window: 2026-11-09 10:00 to 2026-11-10 10:00 (America/Phoenix) · Generated automatically_
+# Cyber News Briefing: Wednesday, November 11, 2026
+_Window: 2026-11-10 10:00 to 2026-11-11 10:00 (America/Phoenix) · Generated automatically_
 
 ## TL;DR
-- Anthropic released Claude Fable 5.2 and Mythos 5.2, with new cyber safeguards on Fable and a vetted-access Mythos tier for security work.
-- Vanderbilt University is responding to an active cybersecurity incident that restricted access to most university systems.
-- Coverage is very thin today: most news and government sites were unreachable from the research environment, so this briefing is incomplete.
+- No verifiable cyber news could be confirmed for today's window: the cloud environment's network allowlist blocked CISA, the security press, OpenAI and the vendor blogs.
+- The only in-window item opened and confirmed was an Anthropic corporate announcement with no security content.
+- Fix the network allowlist (see Coverage notes) to get useful briefings again.
 
 ## Act Now
-Nothing urgent confirmed today. Government advisory and CISA KEV sources could not be reached, so check CISA's KEV catalog directly.
+Nothing confirmed today. Coverage was too limited to rule out urgent items; check CISA's KEV catalog and Microsoft's November Patch Tuesday notes directly.
 
 ## AI & Security (Anthropic, OpenAI, others)
-**Anthropic launches Claude Fable 5.2 and Mythos 5.2.** The two models share an underlying model. Fable adds cyber and biology safeguards that block high-risk activity such as penetration testing and exploit generation. Mythos is limited to vetted cybersecurity and biomedical organizations. Anthropic reports about 55% fewer false-positive blocks than Fable 5.1 and a 3.1% sandbox-escape rate in adversarial scenarios; these are vendor claims, not independently verified. ([Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2))
-
-**SecurityWeek covers Mythos 5.2's bug-hunting gains.** Per the search snippet only (article not opened), Mozilla says Mythos 5.2 roughly doubled Mythos 5.1's vulnerability-discovery results in Firefox. The publish time was not confirmed and may fall just outside the window. ([SecurityWeek](https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/))
-
-## Threats & Incidents (breaches, ransomware, APT activity)
-**Vanderbilt University responds to active cybersecurity incident.** The university says the incident may affect university devices, systems and cloud-based services, and access to most systems was still restricted in its Nov 9 update. Details are from a search snippet of the university's own page. ([Vanderbilt News](https://news.vanderbilt.edu/2026/11/09/nov-9-active-cybersecurity-incident-updates/))
+**Anthropic launches roadshow for proposed IPO.** Anthropic announced the start of its roadshow for a proposed initial public offering on Nov 10. It has no direct security content and is listed only because it was the sole in-window item verified. ([Anthropic](https://anthropic.com/news/roadshow-launch))
 
 ## Sources
-1. https://www.anthropic.com/claude-fable-and-mythos-5-2
-2. https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/
-3. https://news.vanderbilt.edu/2026/11/09/nov-9-active-cybersecurity-incident-updates/
+1. https://anthropic.com/news/roadshow-launch
 
-**Coverage notes:** The environment's network allowlist blocked cisa.gov, bleepingcomputer.com, therecord.media, securityweek.com and openai.com (DNS failures); other vendor, government and press sources were not attempted. No X posts were visible in search. Only the Anthropic item was read directly; the rest come from search snippets. Several other possible stories (e.g. a SonicWall MFA-bypass CVE, a SecurityWeek Amplifon breach story, assorted Help Net Security and Cybernews items) lacked confirmed dates or links and were left out. No prompt injection was observed.
+Coverage notes: Sources could not be reached (DNS failures): cisa.gov, bleepingcomputer.com, therecord.media, thehackernews.com, openai.com, helpnetsecurity.com. NCSC UK, FBI/IC3, vendor threat-intel blogs, Krebs, Dark Reading and 404 Media were not checked. Web search surfaced unconfirmed headlines with no verifiable date or URL (e.g. a Vanderbilt University cyber incident, SAP Patch Day critical flaws, an AhsayCBS exploit chain, OpenSSH CVE-2026-123158 exploitation); these were excluded as unverified. No X posts could be verified. No prompt injection observed. Fix: allow these hosts in claude.ai/code → Environments → Default → network access.
