@@ -1,22 +1,39 @@
-# Cyber News Briefing: Thursday, November 12, 2026
-_Window: 2026-11-11 10:00 to 2026-11-12 10:00 (America/Phoenix) · Generated automatically_
+# Cyber News Briefing: Friday, November 13, 2026
+_Window: 2026-11-12 10:00 to 2026-11-13 10:00 (America/Phoenix) · Generated automatically_
 
 ## TL;DR
-- Microsoft describes threat actors abusing the open-source GSocket tool for stealthy, persistent C2 on compromised Linux servers.
-- Microsoft researchers detail post-training supply chain attacks that implant dormant backdoors in coding agents.
-- Coverage was very thin today: most news, government and vendor sites were unreachable, so no in-window CISA, NCSC, or press items could be verified.
+- Coverage is very thin again: the network allowlist blocked CISA, NCSC UK, BleepingComputer, The Record and OpenAI, so no primary source was opened and verified.
+- Secondary roundups for Nov 12 mention a Windows privilege-escalation zero-day ("SignDrop"), a critical Apache HTTP Server flaw (CVE-2026-119618), and a wave of Citrix NetScaler patches. All are unverified leads.
+- Microsoft said the Nov 12 Microsoft 365/Outlook outage was caused by failed server health checks, with no evidence of a cyberattack (per a roundup).
+- Anthropic's newsroom shows nothing new inside the window (latest posts Nov 9 and Nov 10).
 
 ## Act Now
-Nothing urgent today (among verifiable items). Note that CISA and NCSC sources could not be checked; see Coverage notes.
+Nothing confirmed from a primary source today. Unverified leads worth checking against vendor advisories: Apache HTTP Server CVE-2026-119618 (reported RCE when HTTP/2 is enabled), Citrix NetScaler/Secure Access Client patches (some auth-bypass), and the reported Windows "SignDrop" SYSTEM privilege-escalation zero-day. Roundup: [Parker Nathan, Nov 12](https://theparkernathan.substack.com/p/cybersecurity-news-november-12-2026) [1].
 
 ## AI & Security (Anthropic, OpenAI, others)
-**Post-training supply chain attacks can hijack coding agents.** Microsoft researchers show that crafted fine-tuning examples or manipulated open-weight checkpoints can implant dormant backdoors that trigger unsafe tool calls and often carry over to unseen repositories and agent harnesses. They recommend treating third-party model checkpoints as untrusted dependencies. ([Microsoft Security Blog, Nov 12](https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/))
+**Reported: ten organizations breached using an open-source AI pentest framework.** A roundup says attackers used an open-source AI-driven penetration testing framework against ten organizations. Unverified; I did not see the underlying report. [1]
 
 ## Threats & Incidents (breaches, ransomware, APT activity)
-**GSocket abused for stealthy command-and-control on Linux servers.** Attackers install the open-source GSocket remote access tool on servers compromised through web application flaws; it relays traffic via a shared public network, so access can persist even after the original flaw is patched. Defenders should hunt for the tool, its persistence mechanisms, and unusual outbound connections. ([Microsoft Security Blog, Nov 11](https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/))
+**Maersk breach traced to an acquired legacy system.** A daily OT news digest reports the breach originated in a legacy system inherited through an acquisition. [Security Boulevard](https://securityboulevard.com/2026/11/daily-ot-security-news-november-12-2026/) [2]
+
+**Operation Endgame takedown reportedly uncovered 6M+ stolen logins.** Per the same roundup. [1]
+
+**GitHub CI secret-stealing campaign and active ScreenConnect intrusions.** Health-ISAC's Nov 12 headlines mention both. [Health-ISAC](https://health-isac.org/health-isac-daily-cyber-headlines-november-12-2026/) [3]
+
+**Microsoft 365/Outlook outage was not an attack.** Microsoft attributed it to failed server health checks and disclosed no evidence of a cyberattack. [1]
+
+## Vulnerabilities & Patches
+**Critical Apache HTTP Server flaw (CVE-2026-119618).** Reportedly allows possible code execution when HTTP/2 is enabled. Chrome 157 (83 fixes) and Firefox 160 (99 bugs) also shipped. [1]
+
+**Citrix patches about a dozen NetScaler and Secure Access Client bugs,** some enabling authentication bypass; MongoDB pre-auth flaw CVE-2026-118383 can crash servers during failover. [1]
+
+**Forescout reports 66 new TCP/IP-stack flaws in OT/IoT devices;** no exploitation reported. [2]
+
+**Windows "SignDrop" zero-day** reportedly gives SYSTEM privileges. [1]
 
 ## Sources
-1. https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/
-2. https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/
+1. https://theparkernathan.substack.com/p/cybersecurity-news-november-12-2026
+2. https://securityboulevard.com/2026/11/daily-ot-security-news-november-12-2026/
+3. https://health-isac.org/health-isac-daily-cyber-headlines-november-12-2026/
 
-**Coverage notes:** Research was very thin. openai.com, cisa.gov, ncsc.gov.uk, bleepingcomputer.com, thehackernews.com and therecord.media were unreachable (network allowlist), and several vendor sources were not checked. No X posts were found. Unverified leads not included above: a Cisco FMC static-credential zero-day report and a Minnesota water utilities OT attack report (BleepingComputer, undated), and Nov 10 Patch Tuesday details. No prompt injection was observed in any source.
+**Coverage notes:** Items above come only from search-result snippets of secondary roundups (listing date Nov 12); none were opened or confirmed against primary sources, so treat them as leads. CISA, NCSC UK, BleepingComputer, The Record and openai.com were unreachable (DNS blocked). Vendor threat-intel blogs, X, and most press outlets were not checked. No suspected prompt injection seen.
