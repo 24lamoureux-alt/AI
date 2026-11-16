@@ -1,6 +1,7 @@
 # Briefing Index
 
 _Newest first._
+- [2026-11-16](reports/2026/11/2026-11-16.md): No verifiable in-window items; coverage gap due to blocked sites (only an unopened Microsoft ScreenConnect post dated Nov 13)
 - [2026-11-13](reports/2026/11/2026-11-13.md): Unverified roundup leads only (Apache HTTP Server CVE-2026-119618, Citrix patches); coverage very thin due to blocked sites
 - [2026-11-12](reports/2026/11/2026-11-12.md): Microsoft details GSocket C2 abuse and post-training backdoors in coding agents; coverage very thin due to blocked sites
 - [2026-11-11](reports/2026/11/2026-11-11.md): No verifiable news confirmed; network allowlist blocked nearly all sources
