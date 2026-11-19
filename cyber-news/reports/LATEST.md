@@ -1,21 +1,15 @@
-# Cyber News Briefing: Wednesday, November 18, 2026
-_Window: 2026-11-17 10:00 to 2026-11-18 10:00 (America/Phoenix) · Generated automatically_
+# Cyber News Briefing: Thursday, November 19, 2026
+_Window: 2026-11-18 10:00 to 2026-11-19 10:00 (America/Phoenix) · Generated automatically_
 
 ## TL;DR
-- No news item could be verified inside the window; the cloud environment's network allowlist blocks most news and government sites.
-- Only one unverified lead (Atlassian's November security bulletin) was seen, via a search snippet.
-- Anthropic's newsroom was reachable: nothing new since Nov 10 (IPO roadshow announcement).
+- No verifiable in-window items were found today; research was blocked or returned only older material.
+- Nothing was confirmed as actively exploited inside the window.
 
 ## Act Now
-Nothing urgent confirmed today. CISA, vendor blogs and press sites could not be checked, so absence of items is not evidence of a quiet day.
+Nothing urgent today.
 
-## Threats & Incidents
-No verified items.
-
-## Vulnerabilities & Patches
-**Atlassian November 2026 security updates (unverified lead).** A search snippet from an aggregator says Atlassian's November bulletin fixes 318 vulnerabilities across Jira, Confluence, Bitbucket and other products, dated Nov 17. The page could not be opened; check Atlassian's official bulletin before acting. ([GBHackers](https://gbhackers.com/atlassian-releases-november-2026-security-updates/))
+## Coverage notes
+Coverage is very thin. The cloud environment's network allowlist blocked cisa.gov, bleepingcomputer.com, therecord.media, thehackernews.com and openai.com (DNS lookup failures), so government, press and OpenAI sources could not be checked. Searches returned only older items (e.g. CISA KEV additions and Microsoft Patch Tuesday from Nov 9-10), which are outside the window and omitted. Anthropic's news index showed no security items in the window; its only Nov 18 listing was an unrelated, unopened corporate announcement. No X posts were found. No suspected prompt injection was seen. Fix: allow these hosts under claude.ai/code → Environments → network access.
 
 ## Sources
-1. https://gbhackers.com/atlassian-releases-november-2026-security-updates/ (unopened, unverified)
-
-**Coverage notes:** OpenAI, cisa.gov, BleepingComputer, The Record, SecurityWeek and The Hacker News were unreachable (DNS blocked). Google, Microsoft and vendor threat-intel blogs yielded no in-window results via search. X search returned no usable posts. No suspected prompt injection seen.
+None cited.

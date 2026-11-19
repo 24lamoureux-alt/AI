@@ -1,6 +1,7 @@
 # Briefing Index
 
 _Newest first._
+- [2026-11-19](reports/2026/11/2026-11-19.md): No verified in-window items; coverage very thin due to blocked sites (cisa.gov, press sites, openai.com)
 - [2026-11-18](reports/2026/11/2026-11-18.md): No verified in-window items (one unverified Atlassian bulletin lead); coverage very thin due to blocked sites
 - [2026-11-17](reports/2026/11/2026-11-17.md): Unverified leads only (Maersk data theft, ARTEX AI framework FBI warning); coverage very thin due to blocked sites
 - [2026-11-16](reports/2026/11/2026-11-16.md): No verifiable in-window items; coverage gap due to blocked sites (only an unopened Microsoft ScreenConnect post dated Nov 13)
