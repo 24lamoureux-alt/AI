@@ -1,6 +1,7 @@
 # Briefing Index
 
 _Newest first._
+- [2026-11-23](reports/2026/11/2026-11-23.md): No verified in-window security items; unverified VMware vCenter zero-day and Nvidia ransomware leads; coverage thin due to blocked sites
 - [2026-11-20](reports/2026/11/2026-11-20.md): Unverified leads: VMware vCenter zero-day CVE-2026-123890 exploited by China-nexus actor; N-able and Optimizely incidents; coverage thin due to blocked sites
 - [2026-11-19](reports/2026/11/2026-11-19.md): No verified in-window items; coverage very thin due to blocked sites (cisa.gov, press sites, openai.com)
 - [2026-11-18](reports/2026/11/2026-11-18.md): No verified in-window items (one unverified Atlassian bulletin lead); coverage very thin due to blocked sites
