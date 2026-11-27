@@ -1,20 +1,27 @@
-# Cyber News Briefing: Thursday, November 26, 2026
-_Window: 2026-11-25 10:00 to 2026-11-26 10:00 (America/Phoenix) · Generated automatically_
+# Cyber News Briefing: Friday, November 27, 2026
+_Window: 2026-11-26 10:00 to 2026-11-27 10:00 (America/Phoenix) · Generated automatically_
 
 ## TL;DR
-- No items could be fully verified inside the window; most news, government and vendor sites were unreachable from the research environment.
-- One unverified lead: reports of a suspected AI-assisted campaign compromising Check Point Security Management servers (see Threats & Incidents).
-- No new CISA KEV additions, FBI/IC3 PSAs, or Anthropic/OpenAI/Google/Microsoft AI-security publications were found dated inside the window.
+- No item with a confirmed in-window publish date and working source link could be verified today.
+- The cloud environment's network allowlist blocked CISA, NCSC UK, OpenAI, BleepingComputer, The Record and The Hacker News, so primary sources could not be checked.
+- Several unverified leads (search-engine summaries of aggregator pages only) are listed below for follow-up. Do not treat them as confirmed.
 
 ## Act Now
-Nothing urgent confirmed today. Unverified lead: organizations running Check Point Security Management servers should confirm they have applied vendor patches for CVE-2026-16232 (reported as previously disclosed, with patches available).
+Nothing urgent confirmed today. Note: no new CISA KEV additions dated Nov 26-27 could be confirmed, but the CISA site was unreachable.
 
-## Threats & Incidents
-**Suspected AI-assisted campaign hits Check Point management servers (unverified date).** The Hacker News headline reports compromise of 24 Check Point Security Management servers; the activity is tracked by GreyNoise as "GT13", reportedly with confirmed activity Oct 17 to Nov 2, 2026. The reported CVE is CVE-2026-16232, said to be already patched. Counts differ between outlets (24 servers vs. 22 organizations), and the publish date (Nov 25) came only from a search summary, so treat as a lead. Sources: [The Hacker News](https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html), [BleepingComputer](https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/), [SecurityWeek](https://securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign).
+## AI & Security (Anthropic, OpenAI, others)
+**Nothing new in window from Anthropic, Microsoft or Google.** The newest Anthropic news post is dated Nov 20 ([source](https://www.anthropic.com/news/ipo-close)). The closest relevant item is Microsoft's Nov 25 post on the ARTEX agentic AI framework abused by threat actors, about a day before the window opens ([source](https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/)). OpenAI could not be reached.
+
+## Threats & Incidents (unverified leads)
+These come only from search-result snippets of aggregator pages that could not be opened; no primary source or date was confirmed.
+- **Unverified:** claimed incident at SAP involving stolen tokens used to alter GitHub code (SAP reportedly says customer data was not accessed).
+- **Unverified:** claimed ransomware attack disrupting surgeries and cancer care at Guadeloupe University Hospital.
+- **Unverified:** ransomware group "n0n" claiming a large USA Today data theft.
+- **Unverified:** claimed mass exploitation of a Citrix NetScaler flaw after a PoC appeared, and claimed Mitel MiCollab zero-days.
+- **Unverified and doubtful:** a claimed Hex.pm server compromise; a follow-up search found no support.
 
 ## Sources
-1. https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html
-2. https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/
-3. https://securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign
+1. https://www.anthropic.com/news/ipo-close
+2. https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/
 
-**Coverage notes:** Very thin. WebFetch failed (DNS/allowlist) for cisa.gov, ncsc.gov.uk, openai.com, bleepingcomputer.com, therecord.media and thehackernews.com; other sites were untested. anthropic.com/news was readable and had nothing in the window. The Check Point item was seen only in search results, not opened. No prompt injection observed.
+**Coverage notes:** Research was very thin. www.cisa.gov, www.ncsc.gov.uk, openai.com, www.bleepingcomputer.com, therecord.media and thehackernews.com failed DNS resolution (outside the network allowlist). No X posts were retrievable. No prompt injection was observed.

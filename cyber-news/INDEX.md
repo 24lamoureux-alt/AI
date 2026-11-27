@@ -1,6 +1,7 @@
 # Briefing Index
 
 _Newest first._
+- [2026-11-27](reports/2026/11/2026-11-27.md): No verified in-window items; unverified SAP, Citrix NetScaler and ransomware leads; coverage very thin due to blocked sites
 - [2026-11-26](reports/2026/11/2026-11-26.md): Unverified lead: suspected AI-assisted compromise of Check Point management servers (CVE-2026-16232); coverage very thin due to blocked sites
 - [2026-11-25](reports/2026/11/2026-11-25.md): CISA adds Drupal Core, Idunno AntiCsrf and Optimizely flaws to KEV (deadline Nov 27); coverage thin, mostly unverified snippets
 - [2026-11-24](reports/2026/11/2026-11-24.md): No verified in-window items; unverified Langflow RCE / JadePuffer leads; coverage thin due to blocked sites
